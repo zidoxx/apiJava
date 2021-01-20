@@ -10,16 +10,17 @@ package com.mycompany.gatosapp;
  * @author User
  */
 public class Gatos {
-    private int id;
+
+    private String id;
     private String url;
     private String apiKey = "730076d5-5657-4316-812c-3adf8ff2d3d8";
     private String image;
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -46,5 +47,5 @@ public class Gatos {
     public void setImage(String image) {
         this.image = image;
     }
-    
+
 }
